@@ -7,6 +7,7 @@ import Footer from './components/layout/Footer.jsx';
 import Home from './pages/Home.jsx';
 import Projects from './pages/Projects.jsx';
 import ProjectDetail from './pages/ProjectDetail.jsx';
+import NotFound from './pages/NotFound.jsx';
 
 import LoadingScreen from './components/ui/LoadingScreen.jsx';
 
@@ -25,10 +26,8 @@ export default function App() {
             <Routes>
               <Route path="/" element={<Home />} />
               <Route path="/projects" element={<Projects />} />
-              <Route
-                path="/projects/:slug"
-                element={<ProjectDetail />}
-              />
+              <Route path="/projects/:slug" element={<ProjectDetail />} />
+              <Route path="*" element={<NotFound />} />
             </Routes>
           </main>
 
