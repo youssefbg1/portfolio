@@ -1,0 +1,18 @@
+:root {
+  /* Core Colors */
+  --blue1: #02187B;
+  --blue2: #0246A7;
+  --blue3: #164DE5;
+  --blue4: #1E89EF;
+  --blue5: #5CDFFB;
+
+  --background: #000948;
+
+  --text: #000000;
+  --text-light: #FFFFFF;
+
+  /* Grid & Spacing */
+  --grid-gap: 16px;
+  --page-margin-desktop: 64px;
+  --page-margin-mobile: 24px;
+}

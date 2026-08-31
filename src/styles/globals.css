@@ -1,0 +1,199 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  overflow-x: hidden;
+  /* Prevent sticky breakage by not hiding overflow on body unless necessary, but html is generally safer */
+}
+body {
+  background-color: var(--background);
+  color: var(--text-light);
+  /* Strictly no rounded corners anywhere */
+  border-radius: 0; 
+}
+
+/* Accessibility */
+:focus {
+  outline: none;
+}
+:focus-visible {
+  outline: 2px solid var(--blue5);
+  outline-offset: 4px;
+}
+.interactive-block:focus-visible {
+  outline-offset: 0;
+  box-shadow: 0 0 0 2px var(--blue5) inset;
+}
+
+*, *::before, *::after {
+  border-radius: 0 !important; /* Enforce 0px border radius across the app */
+}
+
+a {
+  color: var(--blue5);
+  text-decoration: none;
+}
+
+/* Grid System */
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  gap: var(--grid-gap);
+  padding: 0 var(--page-margin-desktop);
+  max-width: 1800px;
+  margin: 0 auto;
+}
+
+/* Constructivist Geometry & Shape Utilities */
+.clip-br {
+  clip-path: polygon(0 0, 100% 0, 100% calc(100% - 24px), calc(100% - 24px) 100%, 0 100%);
+}
+.clip-tl {
+  clip-path: polygon(24px 0, 100% 0, 100% 100%, 0 100%, 0 24px);
+}
+.clip-tr {
+  clip-path: polygon(0 0, calc(100% - 24px) 0, 100% 24px, 100% 100%, 0 100%);
+}
+.clip-bl {
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 24px 100%, 0 calc(100% - 24px));
+}
+
+/* Borders & Lines */
+.border-heavy {
+  border: 4px solid var(--blue3);
+}
+.border-tech {
+  border: 1px solid var(--blue2);
+}
+.border-accent {
+  border: 1px solid var(--blue5);
+}
+.border-right-desktop {
+  border-right: 2px solid var(--blue2);
+}
+
+/* Colors Utilities (for easy composition) */
+.bg-blue1 { background-color: var(--blue1); }
+.bg-blue2 { background-color: var(--blue2); }
+.bg-blue3 { background-color: var(--blue3); }
+.bg-blue4 { background-color: var(--blue4); }
+.bg-blue5 { background-color: var(--blue5); color: var(--text); }
+.bg-surface { background-color: var(--background); }
+
+.text-accent { color: var(--blue5); }
+.text-primary { color: var(--blue3); }
+.text-dark { color: var(--text); }
+
+/* Common Structural Elements */
+.col-span-12 { grid-column: span 12; }
+.col-span-8 { grid-column: span 8; }
+.col-span-7 { grid-column: span 7; }
+.col-span-6 { grid-column: span 6; }
+.col-span-5 { grid-column: span 5; }
+.col-span-4 { grid-column: span 4; }
+
+/* Project Card Structural Geometry */
+.project-card {
+  display: flex;
+  flex-direction: column;
+  background-color: var(--blue1);
+  border: 1px solid var(--blue2);
+  height: 100%;
+  position: relative;
+  text-decoration: none;
+  overflow: hidden;
+}
+
+.project-img-container {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  border-bottom: 1px solid var(--blue2);
+  overflow: hidden;
+}
+
+.project-year-badge {
+  position: absolute;
+  top: 1rem;
+  left: 1rem;
+  background-color: var(--background);
+  border: 1px solid var(--blue5);
+  padding: 0.25rem 0.5rem;
+  z-index: 10;
+}
+
+.project-content {
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+.project-card-footer {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  margin-top: auto;
+  padding-top: 2rem;
+}
+
+.project-cta-btn {
+  background-color: var(--blue3);
+  color: var(--text-light);
+  width: 3rem;
+  height: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.navbar {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  background-color: var(--background);
+  border-bottom: 2px solid var(--blue2);
+  padding: 1.5rem var(--page-margin-desktop);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-links {
+  display: flex;
+  gap: 2.5rem;
+}
+
+.mobile-menu-btn {
+  display: none;
+  background: none;
+  border: 1px solid var(--blue5);
+  color: var(--blue5);
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+}
+
+.asymmetric-plate {
+  position: relative;
+  background-color: var(--blue1);
+  border-left: 4px solid var(--blue3);
+  padding: 2rem;
+}
+
+.crosshair-corner {
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  z-index: 20;
+}
+.crosshair-corner::before,
+.crosshair-corner::after {
+  content: '';
+  position: absolute;
+  background-color: var(--blue5);
+}
+.crosshair-corner::before { width: 100%; height: 1px; top: 50%; left: 0; }
+.crosshair-corner::after { width: 1px; height: 100%; top: 0; left: 50%; }

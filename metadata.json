@@ -1,0 +1,6 @@
+{
+  "name": "Youssef Ben Ghorbel Portfolio",
+  "description": "Portfolio of Youssef Ben Ghorbel, a creative and technical Game & VR Developer.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
