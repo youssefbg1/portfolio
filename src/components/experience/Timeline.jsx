@@ -13,7 +13,7 @@ export default function Timeline() {
       <div className="grid-container" style={{ marginBottom: '4rem' }}>
         <div className="col-span-12">
           <h2 className="text-heading" style={{ margin: 0, paddingBottom: '1.5rem', borderBottom: '2px solid var(--blue5)' }}>
-            <span className="text-accent" style={{ marginRight: '1rem' }}>04 /</span> 
+            <span className="text-accent" style={{ marginRight: '1rem' }}>03 /</span> 
             ACTIVITIES & EXPERIENCE
           </h2>
         </div>

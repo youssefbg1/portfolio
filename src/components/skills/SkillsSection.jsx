@@ -7,7 +7,7 @@ export default function SkillsSection() {
       <div className="grid-container" style={{ marginBottom: '4rem' }}>
         <div className="col-span-12">
           <h2 className="text-heading" style={{ margin: 0 }}>
-            <span className="text-accent" style={{ marginRight: '1rem' }}>05 /</span> 
+            <span className="text-accent" style={{ marginRight: '1rem' }}>04 /</span> 
             TECHNICAL PROFICIENCY
           </h2>
         </div>

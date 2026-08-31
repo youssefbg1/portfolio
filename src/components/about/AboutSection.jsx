@@ -11,7 +11,7 @@ export default function AboutSection() {
         {/* Left column empty for asymmetric tension */}
         <div className="col-span-4" style={{ display: 'flex', flexDirection: 'column', justifyContent: 'space-between' }}>
           <h2 className="text-heading" style={{ margin: 0 }}>
-            <span className="text-accent" style={{ marginRight: '1rem' }}>03 /</span> 
+            <span className="text-accent" style={{ marginRight: '1rem' }}>01 /</span> 
             ABOUT
           </h2>
           

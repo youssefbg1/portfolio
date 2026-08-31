@@ -14,7 +14,7 @@ export default function ContactSection() {
         <div className="col-span-12" style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', textAlign: 'center' }}>
           
           <h2 className="text-heading text-accent" style={{ marginBottom: '2rem' }}>
-            06 / CONTACT
+            05 / CONTACT
           </h2>
 
           <div className="text-display" style={{ fontSize: 'clamp(3rem, 8vw, 6rem)', lineHeight: '0.9', margin: '0 0 2rem 0' }}>

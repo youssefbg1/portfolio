@@ -5,7 +5,7 @@ export const skills = [
   },
   {
     category: "VR / XR",
-    items: ["UNITY VR", "XR", "META QUEST", "OPENXR"]
+    items: ["UNITY VR", "OVR", "META QUEST"]
   },
   {
     category: "CREATIVE",

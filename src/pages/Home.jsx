@@ -25,8 +25,8 @@ export default function Home() {
   return (
     <div className="page-enter" onMouseMove={handleMouseMove}>
       <Hero mousePos={mousePos} />
-      <ProjectSection />
       <AboutSection />
+      <ProjectSection />
       <Timeline />
       <SkillsSection />
       <ContactSection />
