@@ -2,7 +2,7 @@ export const siteConfig = {
   name: "YOUSSEF BEN GHORBEL",
   title: "GAME DEVELOPER / VR DEVELOPER",
   description: "Passionate about creating immersive experiences in the worlds of game development and virtual reality.",
-  year: 2025,
+  year: 2026,
   links: {
     email: "mailto:benghorbelyoussef3@gmail.com",
     linkedin: "https://www.linkedin.com/in/youssef-ben-ghorbel-883326262/",
