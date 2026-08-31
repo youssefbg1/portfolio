@@ -81,7 +81,7 @@ export const projects = [
     shortDescription: "a game about building and managing a city with out poluting the environment.",
     description: "The game is built in Unity using C# and is a university project. The player must build and manage a city while keeping the environment clean and sustainable. The game features a building placement system that allows the player to place buildings in a grid-based layout, with each building having its own unique effects on the environment.",
     featured: false,
-    images: [game],
+    images: [citybuilderimage],
     videos: [citybuildergameplay],
     links: { build: null, github: null, website: null, video: null, linkedin: "https://www.linkedin.com/posts/youssef-ben-ghorbel-883326262_gamedevelopment-sustainability-citybuilder-activity-7308141542370607104-onPH?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAEB502MBRZ_Yko9lpng6J8YWR7jkyFafRlU" }
   }

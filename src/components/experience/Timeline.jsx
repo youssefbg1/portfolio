@@ -7,7 +7,7 @@ export default function Timeline() {
   const sortedActivities = [...activities].sort((a, b) => new Date(b.date) - new Date(a.date));
 
   return (
-    <section id="experience" style={{ padding: '8rem 0', borderTop: '2px solid var(--blue2)' }}>
+    <section id="experience" style={{ padding: '8rem 20px', borderTop: '2px solid var(--blue2)' }}>
       
       {/* Header */}
       <div className="grid-container" style={{ marginBottom: '4rem' }}>
