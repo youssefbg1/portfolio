@@ -1,4 +1,4 @@
-import profileImage from '@/assets/profile/portrait.webp';
+import profileImage from '@/src/assets/profile/portrait.webp';
 export default function HeroPortrait() {
   return (
     <div style={{ position: 'relative', marginTop: '2rem', padding: '1rem' }}>
