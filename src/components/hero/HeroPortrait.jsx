@@ -1,3 +1,4 @@
+import profileImage from '@/assets/profile/portrait.webp';
 export default function HeroPortrait() {
   return (
     <div style={{ position: 'relative', marginTop: '2rem', padding: '1rem' }}>
@@ -9,7 +10,7 @@ export default function HeroPortrait() {
       {/* Main Image Container */}
       <div className="border-accent clip-tr bg-surface" style={{ position: 'relative', zIndex: 10, padding: '1rem' }}>
         <img 
-          src="@/assets/profile/portrait.webp"
+          src={profileImage}
           alt="Youssef Ben Ghorbel Portrait" 
           style={{ width: '100%', height: 'auto', display: 'block', filter: 'contrast(1.1) brightness(0.9)' }} 
         />
