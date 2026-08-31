@@ -15,18 +15,10 @@ export default function App() {
   }
 
   return (
-    <Router>
-      <Navbar />
-
-      <main>
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/projects" element={<Projects />} />
-          <Route path="/projects/:slug" element={<ProjectDetail />} />
-        </Routes>
-      </main>
-
-      <Footer />
-    </Router>
+    <Routes>
+      <Route path="/" element={<Home />} />
+      <Route path="/projects" element={<Projects />} />
+      <Route path="/projects/:slug" element={<ProjectDetail />} />
+    </Routes>
   );
 }
