@@ -1,15 +1,15 @@
 export default function HeroPortrait() {
   return (
-    <div style={{ position: 'relative', marginTop: '2rem', padding: '1rem' }}>
+    <div style={{ position: 'relative', marginTop: '2rem', padding: '1.5rem' }}>
       
       {/* Layered Constructivist Background Plates */}
       <div className="bg-blue3 clip-br" style={{ position: 'absolute', inset: '0 -1rem -2rem 2rem', zIndex: 0, opacity: 0.8 }}></div>
       <div className="bg-blue1 clip-tl" style={{ position: 'absolute', inset: '-2rem 2rem 2rem -1rem', zIndex: 0 }}></div>
 
       {/* Main Image Container */}
-      <div className="border-accent clip-tr bg-surface" style={{ position: 'relative', zIndex: 10, padding: '0.5rem' }}>
+      <div className="border-accent clip-tr bg-surface" style={{ position: 'relative', zIndex: 10, padding: '1rem' }}>
         <img 
-          src="https://lh3.googleusercontent.com/aida-public/AB6AXuA2tS12wEKRxENILmrcfyUTos7M1U8kzT3NaN3xgJMmFJEihCb1QWMj3tfSzS7z3EjONPQHFXPojS-efVFVaa1ytZ0MrCZQorjIEbG0fxqwrLSFVzH4bo097v33B2SQTAATscJIxHPuFe9kkkZ6srUiRFmVIed4uHbbC-gdWaN1VIf6pKuHFuMSpEStK9fyvzQXXAtbdEm7AYDk11C70FaKbEMjc7o09cZnwZVfuZZnn8bOdRC0WGaaWybTHDkKEjbIzZk" 
+          src="/images/portrait.webp" 
           alt="Youssef Ben Ghorbel Portrait" 
           style={{ width: '100%', height: 'auto', display: 'block', filter: 'contrast(1.1) brightness(0.9)' }} 
         />

@@ -46,8 +46,8 @@ export default function Hero({ mousePos = { x: 0, y: 0 } }) {
 
           {/* Technical Labels (Decorative) */}
           <div className="hero-labels" style={{ display: 'flex', flexWrap: 'wrap', gap: '1rem', marginBottom: '3rem' }}>
-            <span className="border-tech text-label" style={{ padding: '0.5rem 1rem' }}>01 / GAME DEVELOPMENT</span>
-            <span className="border-tech text-label" style={{ padding: '0.5rem 1rem' }}>02 / VR</span>
+            <span className="border-tech text-label text-accent" style={{ padding: '0.5rem 1rem' }}>GAME DEVELOPMENT</span>
+            <span className="border-tech text-label text-accent" style={{ padding: '0.5rem 1rem' }}>VR</span>
             <span className="border-tech text-label text-accent" style={{ padding: '0.5rem 1rem' }}>UNITY</span>
             <span className="border-tech text-label text-accent" style={{ padding: '0.5rem 1rem' }}>C#</span>
           </div>
