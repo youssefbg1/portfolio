@@ -15,7 +15,7 @@ export default function App() {
   const [loading, setLoading] = useState(true);
 
   return (
-    <Router basename="/portfolio">
+    <Router>
       {loading ? (
         <LoadingScreen onComplete={() => setLoading(false)} />
       ) : (
