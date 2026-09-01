@@ -34,13 +34,15 @@ A modern, interactive portfolio built with React + Vite, designed around a Moder
 
 ## Structure
 
-``src/  return
-├── assets/  return
-├── components/  return
-├── pages/  return
-├── App.jsx  return
-├── main.jsx  return
-└── index.css``
+```
+src/
+├── assets/
+├── components/
+├── pages/
+├── App.jsx
+├── main.jsx
+└── index.css
+```
 
 ## Development
 
