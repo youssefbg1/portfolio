@@ -62,6 +62,3 @@ npm run build
 Hosted with GitHub Pages, with Cloudflare handling DNS and the custom domain.
 
 Live: [https://youssefbg1.tn](https://youssefbg1.tn "Hire me PLZ").
-Hosted with GitHub Pages, with Cloudflare handling DNS and the custom domain.
-
-Live: https://youssefbg1.tn
