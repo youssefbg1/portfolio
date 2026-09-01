@@ -47,7 +47,7 @@ src/
 ## Development
 
 ```
-npm install  return
+npm install
 npm run dev
 ```
 
