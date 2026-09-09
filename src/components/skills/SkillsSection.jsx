@@ -26,7 +26,7 @@ export default function SkillsSection() {
               
               <div style={{ display: 'flex', flexWrap: 'wrap', gap: '1rem', marginTop: '1rem' }}>
                 {skillGroup.items.map(item => (
-                  <span key={item} className="text-display" style={{ fontSize: '1.5rem', padding: '0.5rem', borderBottom: '2px solid var(--blue3)', color: 'var(--text)' }}>
+                  <span key={item} className="text-display" style={{ fontSize: '1.5rem', padding: '0.5rem', borderBottom: '2px solid var(--blue3)', color: 'var(--text-light)' }}>
                     {item}
                   </span>
                 ))}
