@@ -18,7 +18,7 @@ export default function TimelineItem({ activity }) {
 
       {/* Details (Right Side) */}
       <div className="col-span-8">
-        <h3 className="text-heading" style={{ fontSize: '2rem', marginBottom: '1rem', color: 'var(--text)' }}>
+        <h3 className="text-heading" style={{ fontSize: '2rem', marginBottom: '1rem', color: 'var(--text-light)' }}>
           {activity.role} <span style={{ color: 'var(--blue5)' }}>//</span> {activity.title}
         </h3>
         
